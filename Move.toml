@@ -1,0 +1,15 @@
+[package]
+name = "buildstation-pune"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SendMessage='0xa0b4f333d0458309f3903262140598200c954542b339b4eaac2894328e777d2f'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
